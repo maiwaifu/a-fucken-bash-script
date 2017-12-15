@@ -11,7 +11,7 @@ echo "installing i3"
 xbps-install -Sy i3-gaps 
 
 echo "some extra software"
-xbps-install -Sy git scrot rxvt-unicode ranger cmus cmus-faad cmus-ffmpeg cmus-flac cmus-libao cmus-modplug cmus-mpc cmus-oss cmus-pulseaudio cmus-wavpack compton lxappearance icecat feh polybar wpa_gui transmission transmission-gt unzip w3m w3m-img mpv ImageMagick
+xbps-install -Sy git scrot rxvt-unicode ranger cmus cmus-faad cmus-ffmpeg cmus-flac cmus-libao cmus-modplug cmus-mpc cmus-oss cmus-pulseaudio cmus-wavpack compton lxappearance icecat feh polybar wpa_gui transmission transmission-gtk unzip w3m w3m-img mpv ImageMagick
 
 echo "now for some fonts"
 xbps-install -Sy font-awesome  ipafont-fonts-otf noto-fonts-ttf font-unifont-bdf 
